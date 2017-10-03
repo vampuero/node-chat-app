@@ -10,5 +10,5 @@ const publicPath = path.join(__dirname, '../public');
 app.use(express.static(publicPath));
 
 app.listen(port, () => {
-  console.log(`Server started on port:  ${_port}`);
+  console.log(`Server started on port:  ${port}`);
 });
